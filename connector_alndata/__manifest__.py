@@ -16,9 +16,11 @@
     'depends': [
         'crm',
         'fieldservice',
+        'account',
     ],
     'data': [
         'data/ir_config_parameter_data.xml',
+        'data/res_partner_data.xml',
         'data/sync_aln_data_view.xml',
         'views/res_partner_industry_view.xml',
         'views/res_partner_view.xml',
