@@ -8,7 +8,7 @@ from odoo import api, fields, models
 class ResPartnerIndustry(models.Model):
     _inherit = "res.partner.industry"
 
-    ref = fields.Char('Reference')
+    ref = fields.Char('ALN ID Reference')
     parent_id = fields.Many2one('res.partner.industry', 'Parent')
 
     _sql_constraints = [
